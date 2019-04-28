@@ -15,8 +15,8 @@
   <modules>
   	<module>ttmall-manager-dao</module>
   	<module>ttmall-manager-pojo</module>
-  	<module>ttmall-manager-interface</module>
   	<module>ttmall-manager-service</module>
+  	<module>ttmall-manager-interface</module>
   </modules>
   
   <dependencies>
@@ -34,11 +34,13 @@
 				<groupId>org.apache.tomcat.maven</groupId>
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<configuration>
+					<!-- 服务层的端口与启动根路径，和表现层对应 -->
 					<port>8080</port>
 					<path>/</path>
 				</configuration>
 			</plugin>
 		</plugins>
 	</build>
+  
   
 </project>
