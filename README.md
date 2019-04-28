@@ -1,8 +1,6 @@
 # ttmall
 SSM综合分布式电子商务案例
 
-## ttmall
-
 > 分布式电子商务网站
 >
 > From Self-Learning. at Apr 2019. Nanjing.
